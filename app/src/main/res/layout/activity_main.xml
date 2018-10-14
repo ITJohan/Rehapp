@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CCC65"
+    android:padding="5dp"
+    android:shrinkColumns="1"
+    tools:context=".MainActivity">
+
+    <TableRow android:background="#689F38">
+
+        <TextView
+            android:id="@+id/nameTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diamanten 3x10" />
+
+    </TableRow>
+
+    <TableRow android:background="#8BC34A">
+
+        <TextView
+            android:id="@+id/previousTextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous: 2kg" />
+
+        <EditText
+            android:id="@+id/weightEditText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter weight"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/easyButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy" />
+
+        <Button
+            android:id="@+id/hardButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard" />
+
+
+    </TableRow>
+
+    <TableRow android:background="#689F38">
+
+        <TextView
+            android:id="@+id/nameTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diamanten 3x10" />
+
+    </TableRow>
+
+    <TableRow android:background="#8BC34A">
+
+        <TextView
+            android:id="@+id/previousTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous: 2kg" />
+
+        <EditText
+            android:id="@+id/weightEditText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter weight"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/easyButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy" />
+
+        <Button
+            android:id="@+id/hardButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard" />
+
+
+    </TableRow>
+
+    <TableRow android:background="#689F38">
+
+        <TextView
+            android:id="@+id/nameTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diamanten 3x10" />
+
+    </TableRow>
+
+    <TableRow android:background="#8BC34A">
+
+        <TextView
+            android:id="@+id/previousTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous: 2kg" />
+
+        <EditText
+            android:id="@+id/weightEditText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter weight"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/easyButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy" />
+
+        <Button
+            android:id="@+id/hardButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard" />
+
+
+    </TableRow>
+
+    <TableRow android:background="#689F38">
+
+        <TextView
+            android:id="@+id/nameTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diamanten 3x10" />
+
+    </TableRow>
+
+    <TableRow android:background="#8BC34A">
+
+        <TextView
+            android:id="@+id/previousTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous: 2kg" />
+
+        <EditText
+            android:id="@+id/weightEditText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter weight"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/easyButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy" />
+
+        <Button
+            android:id="@+id/hardButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard" />
+
+
+    </TableRow>
+
+    <TableRow android:background="#689F38">
+
+        <TextView
+            android:id="@+id/nameTextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diamanten 3x10" />
+
+    </TableRow>
+
+    <TableRow android:background="#8BC34A">
+
+        <TextView
+            android:id="@+id/previousTextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous: 2kg" />
+
+        <EditText
+            android:id="@+id/weightEditText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter weight"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/easyButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy" />
+
+        <Button
+            android:id="@+id/hardButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard" />
+
+
+    </TableRow>
+
+    <TableRow android:background="#689F38">
+
+        <TextView
+            android:id="@+id/nameTextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diamanten 3x10" />
+
+    </TableRow>
+
+    <TableRow android:background="#8BC34A">
+
+        <TextView
+            android:id="@+id/previousTextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous: 2kg" />
+
+        <EditText
+            android:id="@+id/weightEditText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter weight"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/easyButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy" />
+
+        <Button
+            android:id="@+id/hardButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_gravity="center"
+        android:background="#9CCC65">
+
+        <Button
+            android:id="@+id/finishButton"
+            android:layout_width="match_parent"
+            android:layout_column="3"
+            android:text="FINISH" />
+
+    </TableRow>
+
+</TableLayout>
