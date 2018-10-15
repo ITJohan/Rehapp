@@ -12,10 +12,11 @@
     <TableRow android:background="#689F38">
 
         <TextView
+            style="@style/Header"
             android:id="@+id/nameTextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Diamanten 3x10" />
+            android:text="@string/exercise_1" />
 
     </TableRow>
 
@@ -31,16 +32,18 @@
             android:id="@+id/weightEditText1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Enter weight"
+            android:hint="@string/weight"
             android:inputType="numberDecimal" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/easyButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Easy" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/hardButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,10 +55,11 @@
     <TableRow android:background="#689F38">
 
         <TextView
+            style="@style/Header"
             android:id="@+id/nameTextView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Diamanten 3x10" />
+            android:text="@string/exercise_2" />
 
     </TableRow>
 
@@ -71,16 +75,18 @@
             android:id="@+id/weightEditText2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Enter weight"
+            android:hint="@string/weight"
             android:inputType="numberDecimal" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/easyButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Easy" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/hardButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -92,10 +98,11 @@
     <TableRow android:background="#689F38">
 
         <TextView
+            style="@style/Header"
             android:id="@+id/nameTextView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Diamanten 3x10" />
+            android:text="@string/exercise_3" />
 
     </TableRow>
 
@@ -111,16 +118,18 @@
             android:id="@+id/weightEditText3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Enter weight"
+            android:hint="@string/weight"
             android:inputType="numberDecimal" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/easyButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Easy" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/hardButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -132,10 +141,11 @@
     <TableRow android:background="#689F38">
 
         <TextView
+            style="@style/Header"
             android:id="@+id/nameTextView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Diamanten 3x10" />
+            android:text="@string/exercise_4" />
 
     </TableRow>
 
@@ -151,16 +161,18 @@
             android:id="@+id/weightEditText4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Enter weight"
+            android:hint="@string/weight"
             android:inputType="numberDecimal" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/easyButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Easy" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/hardButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -172,10 +184,11 @@
     <TableRow android:background="#689F38">
 
         <TextView
+            style="@style/Header"
             android:id="@+id/nameTextView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Diamanten 3x10" />
+            android:text="@string/exercise_5" />
 
     </TableRow>
 
@@ -191,16 +204,18 @@
             android:id="@+id/weightEditText5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Enter weight"
+            android:hint="@string/weight"
             android:inputType="numberDecimal" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/easyButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Easy" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/hardButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -212,10 +227,11 @@
     <TableRow android:background="#689F38">
 
         <TextView
+            style="@style/Header"
             android:id="@+id/nameTextView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Diamanten 3x10" />
+            android:text="@string/exercise_6" />
 
     </TableRow>
 
@@ -231,16 +247,18 @@
             android:id="@+id/weightEditText6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Enter weight"
+            android:hint="@string/weight"
             android:inputType="numberDecimal" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/easyButton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Easy" />
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/hardButton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -254,6 +272,7 @@
         android:background="#9CCC65">
 
         <Button
+            style="@style/Widget.AppCompat.Button.Colored"
             android:id="@+id/finishButton"
             android:layout_width="match_parent"
             android:layout_column="3"

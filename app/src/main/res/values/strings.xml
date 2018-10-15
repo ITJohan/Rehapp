@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Rehapp</string>
+    <string name="weight">Weight</string>
+    <string name="exercise_1">Diamanten 3x10</string>
+    <string name="exercise_2">Rundrotation 3x10</string>
+    <string name="exercise_3">Kabelpress 3x10</string>
+    <string name="exercise_4">Uppåtrotation 3x5</string>
+    <string name="exercise_5">Utåtrotation 3x10</string>
+    <string name="exercise_6">Innåtrotation 3x10</string>
 </resources>
