@@ -12,6 +12,7 @@
     <style name="Header" parent="TextAppearance.AppCompat">
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
     </style>
 
 </resources>

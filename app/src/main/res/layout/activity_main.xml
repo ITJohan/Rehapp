@@ -9,27 +9,30 @@
     android:shrinkColumns="1"
     tools:context=".MainActivity">
 
-    <TableRow android:background="#689F38">
+    <TableRow
+        android:background="#689F38">
 
         <TextView
             style="@style/Header"
-            android:id="@+id/nameTextView1"
+            android:id="@+id/nameTextViewOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/exercise_1" />
 
     </TableRow>
 
-    <TableRow android:background="#8BC34A">
+    <TableRow
+        android:background="#8BC34A"
+        android:id="@+id/exerciseOneRow">
 
         <TextView
-            android:id="@+id/previousTextView1"
+            android:id="@+id/previousTextViewOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous: 2kg" />
 
         <EditText
-            android:id="@+id/weightEditText1"
+            android:id="@+id/weightEditTextOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/weight"
@@ -37,14 +40,15 @@
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/easyButton1"
+            android:id="@+id/easyButtonOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Easy" />
+            android:text="Easy"
+            android:onClick="easyOnClick"/>
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/hardButton1"
+            android:id="@+id/hardButtonOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hard" />
@@ -56,7 +60,7 @@
 
         <TextView
             style="@style/Header"
-            android:id="@+id/nameTextView2"
+            android:id="@+id/nameTextViewTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/exercise_2" />
@@ -66,13 +70,13 @@
     <TableRow android:background="#8BC34A">
 
         <TextView
-            android:id="@+id/previousTextView2"
+            android:id="@+id/previousTextViewTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous: 2kg" />
 
         <EditText
-            android:id="@+id/weightEditText2"
+            android:id="@+id/weightEditTextTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/weight"
@@ -80,14 +84,14 @@
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/easyButton2"
+            android:id="@+id/easyButtonTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Easy" />
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/hardButton2"
+            android:id="@+id/hardButtonTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hard" />
@@ -99,7 +103,7 @@
 
         <TextView
             style="@style/Header"
-            android:id="@+id/nameTextView3"
+            android:id="@+id/nameTextViewThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/exercise_3" />
@@ -109,13 +113,13 @@
     <TableRow android:background="#8BC34A">
 
         <TextView
-            android:id="@+id/previousTextView3"
+            android:id="@+id/previousTextViewThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous: 2kg" />
 
         <EditText
-            android:id="@+id/weightEditText3"
+            android:id="@+id/weightEditTextThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/weight"
@@ -123,14 +127,14 @@
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/easyButton3"
+            android:id="@+id/easyButtonThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Easy" />
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/hardButton3"
+            android:id="@+id/hardButtonThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hard" />
@@ -142,7 +146,7 @@
 
         <TextView
             style="@style/Header"
-            android:id="@+id/nameTextView4"
+            android:id="@+id/nameTextViewFour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/exercise_4" />
@@ -152,13 +156,13 @@
     <TableRow android:background="#8BC34A">
 
         <TextView
-            android:id="@+id/previousTextView4"
+            android:id="@+id/previousTextViewFour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous: 2kg" />
 
         <EditText
-            android:id="@+id/weightEditText4"
+            android:id="@+id/weightEditTextFour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/weight"
@@ -166,14 +170,14 @@
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/easyButton4"
+            android:id="@+id/easyButtonFour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Easy" />
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/hardButton4"
+            android:id="@+id/hardButtonFour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hard" />
@@ -185,7 +189,7 @@
 
         <TextView
             style="@style/Header"
-            android:id="@+id/nameTextView5"
+            android:id="@+id/nameTextViewFive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/exercise_5" />
@@ -195,13 +199,13 @@
     <TableRow android:background="#8BC34A">
 
         <TextView
-            android:id="@+id/previousTextView5"
+            android:id="@+id/previousTextViewFive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous: 2kg" />
 
         <EditText
-            android:id="@+id/weightEditText5"
+            android:id="@+id/weightEditTextFive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/weight"
@@ -209,14 +213,14 @@
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/easyButton5"
+            android:id="@+id/easyButtonFive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Easy" />
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/hardButton5"
+            android:id="@+id/hardButtonFive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hard" />
@@ -238,13 +242,13 @@
     <TableRow android:background="#8BC34A">
 
         <TextView
-            android:id="@+id/previousTextView6"
+            android:id="@+id/previousTextViewSix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous: 2kg" />
 
         <EditText
-            android:id="@+id/weightEditText6"
+            android:id="@+id/weightEditTextSix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/weight"
@@ -252,14 +256,14 @@
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/easyButton6"
+            android:id="@+id/easyButtonSix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Easy" />
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/hardButton6"
+            android:id="@+id/hardButtonSix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hard" />
