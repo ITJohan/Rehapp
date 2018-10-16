@@ -6,20 +6,15 @@
     android:layout_height="match_parent"
     android:background="#9CCC65"
     android:padding="5dp"
-    android:shrinkColumns="1"
+    android:stretchColumns="*"
     tools:context=".MainActivity">
 
-    <TableRow
-        android:background="#689F38">
-
-        <TextView
-            style="@style/Header"
-            android:id="@+id/nameTextViewOne"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/exercise_1" />
-
-    </TableRow>
+    <TextView
+        style="@style/Header"
+        android:id="@+id/nameTextViewOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_1" />
 
     <TableRow
         android:background="#8BC34A"
@@ -56,16 +51,12 @@
 
     </TableRow>
 
-    <TableRow android:background="#689F38">
-
-        <TextView
-            style="@style/Header"
-            android:id="@+id/nameTextViewTwo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/exercise_2" />
-
-    </TableRow>
+    <TextView
+        style="@style/Header"
+        android:id="@+id/nameTextViewTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_2" />
 
     <TableRow android:background="#8BC34A">
 
@@ -99,16 +90,12 @@
 
     </TableRow>
 
-    <TableRow android:background="#689F38">
-
-        <TextView
-            style="@style/Header"
-            android:id="@+id/nameTextViewThree"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/exercise_3" />
-
-    </TableRow>
+    <TextView
+        style="@style/Header"
+        android:id="@+id/nameTextViewThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_3" />
 
     <TableRow android:background="#8BC34A">
 
@@ -142,16 +129,12 @@
 
     </TableRow>
 
-    <TableRow android:background="#689F38">
-
-        <TextView
-            style="@style/Header"
-            android:id="@+id/nameTextViewFour"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/exercise_4" />
-
-    </TableRow>
+    <TextView
+        style="@style/Header"
+        android:id="@+id/nameTextViewFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_4" />
 
     <TableRow android:background="#8BC34A">
 
@@ -185,16 +168,12 @@
 
     </TableRow>
 
-    <TableRow android:background="#689F38">
-
-        <TextView
-            style="@style/Header"
-            android:id="@+id/nameTextViewFive"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/exercise_5" />
-
-    </TableRow>
+    <TextView
+        style="@style/Header"
+        android:id="@+id/nameTextViewFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_5" />
 
     <TableRow android:background="#8BC34A">
 
@@ -228,16 +207,12 @@
 
     </TableRow>
 
-    <TableRow android:background="#689F38">
-
-        <TextView
-            style="@style/Header"
-            android:id="@+id/nameTextView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/exercise_6" />
-
-    </TableRow>
+    <TextView
+        style="@style/Header"
+        android:id="@+id/nameTextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercise_6" />
 
     <TableRow android:background="#8BC34A">
 
@@ -271,17 +246,11 @@
 
     </TableRow>
 
-    <TableRow
-        android:layout_gravity="center"
-        android:background="#9CCC65">
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:id="@+id/finishButton"
-            android:layout_width="match_parent"
-            android:layout_column="3"
-            android:text="FINISH" />
-
-    </TableRow>
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/finishButton"
+        android:layout_width="match_parent"
+        android:layout_column="3"
+        android:text="FINISH" />
 
 </TableLayout>

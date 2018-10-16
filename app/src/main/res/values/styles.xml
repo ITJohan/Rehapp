@@ -10,6 +10,7 @@
     </style>
 
     <style name="Header" parent="TextAppearance.AppCompat">
+        <item name="android:background">#689F38</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">14dp</item>
