@@ -21,7 +21,7 @@
         android:id="@+id/exerciseOneRow">
 
         <TextView
-            android:id="@+id/previousTextViewOne"
+            android:id="@+id/previousViewOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous: 2kg" />
@@ -58,10 +58,12 @@
         android:layout_height="wrap_content"
         android:text="@string/exercise_2" />
 
-    <TableRow android:background="#8BC34A">
+    <TableRow
+        android:background="#8BC34A"
+        android:id="@+id/exerciseTwoRow">
 
         <TextView
-            android:id="@+id/previousTextViewTwo"
+            android:id="@+id/previousViewTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous: 2kg" />
@@ -78,7 +80,8 @@
             android:id="@+id/easyButtonTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Easy" />
+            android:text="Easy"
+            android:onClick="easyOnClick"/>
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
@@ -97,10 +100,12 @@
         android:layout_height="wrap_content"
         android:text="@string/exercise_3" />
 
-    <TableRow android:background="#8BC34A">
+    <TableRow
+        android:background="#8BC34A"
+        android:id="@+id/exerciseThreeRow">
 
         <TextView
-            android:id="@+id/previousTextViewThree"
+            android:id="@+id/previousViewThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous: 2kg" />
@@ -117,7 +122,8 @@
             android:id="@+id/easyButtonThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Easy" />
+            android:text="Easy"
+            android:onClick="easyOnClick"/>
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
@@ -136,10 +142,12 @@
         android:layout_height="wrap_content"
         android:text="@string/exercise_4" />
 
-    <TableRow android:background="#8BC34A">
+    <TableRow
+        android:background="#8BC34A"
+        android:id="@+id/exerciseFourRow">
 
         <TextView
-            android:id="@+id/previousTextViewFour"
+            android:id="@+id/previousViewFour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous: 2kg" />
@@ -156,7 +164,8 @@
             android:id="@+id/easyButtonFour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Easy" />
+            android:text="Easy"
+            android:onClick="easyOnClick"/>
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
@@ -175,10 +184,12 @@
         android:layout_height="wrap_content"
         android:text="@string/exercise_5" />
 
-    <TableRow android:background="#8BC34A">
+    <TableRow
+        android:background="#8BC34A"
+        android:id="@+id/exerciseFiveRow">
 
         <TextView
-            android:id="@+id/previousTextViewFive"
+            android:id="@+id/previousViewFive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous: 2kg" />
@@ -195,7 +206,8 @@
             android:id="@+id/easyButtonFive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Easy" />
+            android:text="Easy"
+            android:onClick="easyOnClick"/>
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
@@ -214,10 +226,12 @@
         android:layout_height="wrap_content"
         android:text="@string/exercise_6" />
 
-    <TableRow android:background="#8BC34A">
+    <TableRow
+        android:background="#8BC34A"
+        android:id="@+id/exerciseSixRow">
 
         <TextView
-            android:id="@+id/previousTextViewSix"
+            android:id="@+id/previousViewSix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Previous: 2kg" />
@@ -234,7 +248,8 @@
             android:id="@+id/easyButtonSix"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Easy" />
+            android:text="Easy"
+            android:onClick="easyOnClick"/>
 
         <Button
             style="@style/Widget.AppCompat.Button.Colored"
