@@ -2,38 +2,46 @@ package com.johanlindkvist.rehapp;
 
 import android.content.Context;
 
-import com.johanlindkvist.rehapp.Exercise;
-import com.johanlindkvist.rehapp.Helper;
-
 import java.io.IOException;
 
 public class Workout {
     private Exercise[] mExercises;
+    private String[] mNamesArray = {"Diamanten", "Rundrotation", "Kabelpress", "Uppåtrotation", "Utåtrotation", "Innåtrotation"};
+    private int[] mRepsArray = {10, 10, 10, 5, 10, 10};
+    private int[] mSetsArray = {3, 3, 3, 3, 3, 3};
     private Helper mHelper;
 
-    public void setUpExercises(Context context) {
+    public Workout() {
         mExercises = new Exercise[6];
+        mHelper = new Helper();
+    }
 
+    public void setUpExercises(Context context) {
         for (int i = 0; i < 6; i++) {
-            setUpExercise(context,(i + 1) + ".ser", mExercises[i]);
+            mExercises[i] = setUpExercise(context, mNamesArray[i], mRepsArray[i], mSetsArray[i]);
         }
     }
 
-    private void setUpExercise(Context context, String filename, Exercise exercise) {
+    private Exercise setUpExercise(Context context, String name, int reps, int sets) {
+        Exercise exercise = null;
+
         try {
-            exercise = mHelper.deserializeExercise(filename, context);
+            exercise = mHelper.deserializeExercise(name + ".ser", context);
 
         }
         catch (IOException ex) {
             ex.printStackTrace();
+            exercise = new Exercise(name, reps, sets);
         }
         catch (ClassNotFoundException ex) {
-            createExercise(filename);
+            ex.printStackTrace();
+            exercise = new Exercise(name, reps, sets);
         }
+
+        return exercise;
     }
 
-    private Exercise createExercise(String filename) {
-        // TODO:jol Create a new Exercise object with correct information and return it
-        return new Exercise("Böj", 5, 5);
+    public Exercise getExercise(int index) {
+        return mExercises[index];
     }
 }

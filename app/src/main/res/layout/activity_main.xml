@@ -46,7 +46,8 @@
             android:id="@+id/hardButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hard" />
+            android:text="Hard"
+            android:onClick="hardOnClick"/>
 
 
     </TableRow>
@@ -88,7 +89,8 @@
             android:id="@+id/hardButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hard" />
+            android:text="Hard"
+            android:onClick="hardOnClick"/>
 
 
     </TableRow>
@@ -130,7 +132,8 @@
             android:id="@+id/hardButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hard" />
+            android:text="Hard"
+            android:onClick="hardOnClick"/>
 
 
     </TableRow>
@@ -172,7 +175,8 @@
             android:id="@+id/hardButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hard" />
+            android:text="Hard"
+            android:onClick="hardOnClick"/>
 
 
     </TableRow>
@@ -214,7 +218,8 @@
             android:id="@+id/hardButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hard" />
+            android:text="Hard"
+            android:onClick="hardOnClick"/>
 
 
     </TableRow>
@@ -256,7 +261,8 @@
             android:id="@+id/hardButton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hard" />
+            android:text="Hard"
+            android:onClick="hardOnClick"/>
 
 
     </TableRow>
@@ -266,6 +272,7 @@
         android:id="@+id/finishButton"
         android:layout_width="match_parent"
         android:layout_column="3"
-        android:text="FINISH" />
+        android:text="FINISH"
+        android:onClick="finishOnClick"/>
 
 </TableLayout>

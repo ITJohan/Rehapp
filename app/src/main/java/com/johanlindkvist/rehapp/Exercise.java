@@ -1,27 +1,37 @@
 package com.johanlindkvist.rehapp;
 
 import java.io.Serializable;
-import java.util.ArrayList;
+import java.util.Stack;
 
 public class Exercise implements Serializable {
     private String mName;
     private int mGoalReps;
     private int mGoalSets;
-    private double mWeight;
+    private Stack<Double> mWeights;
+    private boolean mIsHard;
 
     public Exercise(String name, int goalReps, int goalSets) {
         mName = name;
         mGoalReps = goalReps;
         mGoalSets = goalSets;
-        mWeight = 0;
+        mWeights = new Stack<>();
+        mIsHard = false;
     }
 
-    public double getWeight() {
-        return mWeight;
+    public boolean isHard() {
+        return mIsHard;
+    }
+
+    public void setHard(boolean hard) {
+        mIsHard = hard;
+    }
+
+    public Double getWeight() {
+        return mWeights.peek();
     }
 
     public void setWeight(double weight) {
-        mWeight = weight;
+        mWeights.push(weight);
     }
 
     public String getName() {
@@ -30,21 +40,5 @@ public class Exercise implements Serializable {
 
     public void setName(String name) {
         mName = name;
-    }
-
-    public int getGoalReps() {
-        return mGoalReps;
-    }
-
-    public void setGoalReps(int goalReps) {
-        mGoalReps = goalReps;
-    }
-
-    public int getGoalSets() {
-        return mGoalSets;
-    }
-
-    public void setGoalSets(int goalSets) {
-        mGoalSets = goalSets;
     }
 }
